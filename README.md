@@ -14,7 +14,7 @@
 
 ![](./the-third-level.png)
 
-`the-third-level-detail.png` focuses on the strongly driven region, where the effect of the third level is clearest. Here leakage is no longer a small disturbance: the azure ridges reshape the landscape, the magenta valleys remain open, and the imbalance between the two sides becomes unmistakable. This is where the ideal two-level approximation is no longer enough to describe the circuit's full response.
+`the-third-level-detail.png` focuses on the strongly driven region, where the effect of the third level is clearest. Here leakage is no longer a small disturbance: the azure ridges reshape the landscape, the magenta valleys remain open, and the imbalance between the two sides becomes unmistakable. This is where the ideal two-level approximation is no longer enough to capture the full quantum dynamics.
 
 ![](./the-third-level-detail.png)
 

@@ -2,19 +2,19 @@
 
 *A Landscape of Quantum Leakage*
 
-*The Third Level: A Landscape of Quantum Leakage* turns the hidden dynamics of a superconducting qubit into a luminous landscape. Fifty-six profiles are stacked like a range of hills, each tracing how the qubit responds as the frequency of a microwave drive changes at a fixed strength. Magenta shows population reaching the intended computational state, azure shows population leaking into the unwanted third energy level, and the indigo ground marks where that level remains accessible beneath the interference. Under weak drive, the profiles return cleanly to their baselines. As the drive grows stronger, azure rises and the magenta fringes stop reaching zero, making visible the point at which the ideal two-level picture breaks down. Every ridge, gap and glow comes from exact solutions of a three-level model, with no randomness or generated imagery.
+*The Third Level* turns the hidden dynamics of a superconducting qubit into fifty-six luminous profiles stacked like a range of hills. Each traces how the qubit responds as the frequency of a microwave drive changes at a fixed strength. In the ideal two-level picture, this landscape would be symmetric and every fringe would return cleanly to its baseline. The third level present in the physical circuit breaks that balance: magenta shows population reaching the intended computational state, azure shows population leaking away, and the indigo ground marks where the additional level can be reached. As the drive grows stronger, the asymmetry deepens and the magenta fringes stop reaching zero. Every ridge, gap and glow comes from exact solutions of a three-level model, not from randomness or a generative model.
 
 ## The ideal and the real
 
-`without-the-third-level.png` imagines the ideal world of a qubit with only the two levels used for computation. The magenta landscape is perfectly balanced around its centre: each side mirrors the other, and every fringe rises and returns cleanly to its baseline. Nothing leaks away, so the symmetry remains unbroken from the bottom of the stack to the top.
+`without-the-third-level.png` shows the ideal two-level model commonly used to describe a qubit. Its response is symmetric around the qubit's resonance: every feature on one side has a counterpart on the other, and the magenta fringes return cleanly to their baselines. With no additional energy level available, no population can leak away and the symmetry holds at every drive strength.
 
 ![](./without-the-third-level.png)
 
-`the-third-level.png` brings back the third level that exists in the physical device. Its presence breaks the balance of the ideal landscape. Azure appears, one side pulls away from the other, and the magenta fringes stop returning fully to their baselines. The asymmetry grows up the image as the qubit is driven harder, taking the landscape further from the ideal two-level picture.
+`the-third-level.png` shows the more realistic picture, in which the physical circuit has a third energy level above the two used for computation. This additional level creates new resonances on one side of the landscape and breaks the symmetry of the ideal model. Azure appears where population leaks into it, the two sides no longer match, and the magenta fringes stop returning fully to their baselines. The difference becomes more pronounced as the drive grows stronger.
 
 ![](./the-third-level.png)
 
-`the-third-level-detail.png` focuses on the part of the physical landscape where this asymmetry is strongest. Here the third level is no longer a subtle disturbance. Azure rises across the landscape, the magenta valleys remain open, and the contrast between the symmetry of the ideal qubit and the asymmetry of the physical one becomes impossible to miss.
+`the-third-level-detail.png` focuses on the strongly driven region, where the effect of the third level is clearest. Here leakage is no longer a small disturbance: the azure ridges reshape the landscape, the magenta valleys remain open, and the imbalance between the two sides becomes unmistakable. This is where the ideal two-level approximation is no longer enough to describe the circuit's full response.
 
 ![](./the-third-level-detail.png)
 

@@ -1,0 +1,66 @@
+{
+  "model": {
+    "anharmonicity_ghz": -0.22
+  },
+  "composition": {
+    "detuning_lo_mhz": -300.0,
+    "detuning_hi_mhz": 340.0,
+    "amplitude_lo_mhz": -60.0,
+    "amplitude_hi_mhz": 440.0,
+    "hold_time_ns": 120.0,
+    "lines": 56,
+    "gain": 3.5,
+    "skirt": 1.4,
+    "stroke_frac": 0.00086,
+    "glow_frac": 0.00286,
+    "envelope_frac": 0.029,
+    "margin_frac": 0.005,
+    "supersample": 2,
+    "exposure": 1.0
+  },
+  "numerical_checks": {
+    "sections_drawn": 56,
+    "profile_minima_sampled": 3481,
+    "profile_minimum_median_two_level": 7.40841701194091e-09,
+    "profile_minimum_median_three_level": 0.0005972208070150821,
+    "profile_minima_above_1pc_three_level": 0.3277793737431772,
+    "floor_bottom_section": 2.495246063818262e-05,
+    "floor_top_section": 0.07586922531622596,
+    "floor_minimum_any_section": 1.686274385892106e-10,
+    "floor_climb_bottom_to_top": 3040.550846521716,
+    "floor_rank_correlation_with_drive": 0.9681476418318523,
+    "floor_median_two_level_all_sections": 1.2839816557829064e-08,
+    "baseline_gap_px_top_three_level": 15.800174698701914,
+    "baseline_gap_px_top_two_level": 2.301617083180889e-06,
+    "floor_median_two_level_pushed_half": 1.3939607111448549e-08,
+    "two_level_median_fell_by": 16.236852143888928,
+    "three_level_median_drift": 0.0019094153658621993,
+    "plate_height_px": 3516,
+    "margin_px": 17.580000000000002,
+    "highest_crest_px": 3465.9805197880464
+  },
+  "plates": [
+    {
+      "name": "the-third-level",
+      "pixels": [
+        4500,
+        3516
+      ]
+    },
+    {
+      "name": "without-the-third-level",
+      "pixels": [
+        4500,
+        3516
+      ]
+    },
+    {
+      "name": "the-third-level-detail",
+      "pixels": [
+        4500,
+        3516
+      ]
+    }
+  ],
+  "randomness": "None. The program is fully deterministic."
+}

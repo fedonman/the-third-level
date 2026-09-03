@@ -4,8 +4,6 @@
 
 *The Third Level* turns the hidden dynamics of a superconducting qubit into fifty-six luminous profiles stacked like a range of hills. Each traces how the qubit responds as the frequency of a microwave drive changes at a fixed strength. In the ideal two-level picture, this landscape would be symmetric and every fringe would return cleanly to its baseline. The third level present in the physical circuit breaks that balance: magenta shows population reaching the intended computational state, azure shows population leaking away, and the indigo ground marks where the additional level can be reached. As the drive grows stronger, the asymmetry deepens and the magenta fringes stop reaching zero. Every ridge, gap and glow comes from exact solutions of a three-level model, not from randomness or a generative model.
 
-## The ideal and the real
-
 `without-the-third-level.png` shows the ideal two-level model commonly used to describe a qubit. Its response is symmetric around the qubit's resonance: every feature on one side has a counterpart on the other, and the magenta fringes return cleanly to their baselines. With no additional energy level available, no population can leak away and the symmetry holds at every drive strength.
 
 ![](./without-the-third-level.png)
